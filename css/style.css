@@ -596,6 +596,10 @@ footer {
     margin-right: 0;
 }
 
+.footer-head i {
+    cursor: pointer;
+}
+
 
 /*button-up*/
 
