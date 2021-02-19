@@ -147,6 +147,11 @@ h3 {
     color: yellow;
 }
 
+.menu a:active {
+    text-decoration: none;
+    color: rgba(190, 240, 12, 0.5);
+}
+
 .header-title {
     text-align: center;
     padding-bottom: 260px;
@@ -178,6 +183,10 @@ h3 {
 .btn:hover {
     color: white;
     background-color: #62497c;
+}
+
+.btn:active {
+    box-shadow: 2px 2px 5px black;
 }
 
 
@@ -590,14 +599,11 @@ footer {
 
 .footer-social i:hover {
     color: #62497c;
+    cursor: pointer;
 }
 
 .contacts-row {
     margin-right: 0;
-}
-
-.footer-social i {
-    cursor: pointer;
 }
 
 
@@ -615,6 +621,17 @@ footer {
     font-size: 24px;
     border: 1px solid #62497c;
     cursor: pointer;
+    outline: none;
+}
+
+.shown:focus {
+    outline: none;
+}
+
+.shown:hover {
+    background-color: #62497c;
+    color: #ffe26d;
+    border: 1px solid #ffe26d;
 }
 
 @media screen and (max-width: 1190px) {
